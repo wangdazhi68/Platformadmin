@@ -1,0 +1,29 @@
+.el-aside {
+    background-color: #495060;
+    color: #333;
+    text-align: center;
+}
+
+.el-header {
+    background: #495060
+}
+
+.el-main {
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    line-height: normal;
+    min-height: 600px;
+}
+
+.el-menu-item.is-active {
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+.el-menu-item {
+    font-size: 16px !important;
+}
+
+.el-menu {
+    border-right: none !important;
+}
