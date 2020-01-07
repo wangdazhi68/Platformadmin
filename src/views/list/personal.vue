@@ -32,8 +32,9 @@
         <div class="table">
             <template>
                 <el-table :data="tableData" border style="width: 100%">
-                    <el-table-column prop="realName" label="姓名" width="80"></el-table-column>
+                    <el-table-column prop="realName" label="姓名" width="70"></el-table-column>
                     <el-table-column prop="mobile" label="手机号" width="110"></el-table-column>
+                    <el-table-column prop="certMobile" label="认证手机号" width="110"></el-table-column>
                     <el-table-column prop="email" label="邮箱"></el-table-column>
                     <el-table-column prop="appTime" label="申请时间"></el-table-column>
                     <el-table-column prop="appSource" label="认证方式"></el-table-column>
@@ -80,8 +81,8 @@
                 </el-row>
                 <el-row :gutter="gutter">
                     <el-col :span="12">
-                        <el-form-item label="手机号" label-width="70px">
-                            <el-input v-model="userinfo.mobile" autocomplete="off" disabled></el-input>
+                        <el-form-item label="认证电话" label-width="70px">
+                            <el-input v-model="userinfo.certMobile" autocomplete="off" disabled></el-input>
                         </el-form-item>
                     </el-col>
                     <el-col :span="12">

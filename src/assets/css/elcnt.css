@@ -1,5 +1,5 @@
 .el-aside {
-    background-color: #495060;
+    background-color: #545c64;
     color: #333;
     text-align: center;
 }
@@ -13,7 +13,6 @@
     color: #333;
     text-align: center;
     line-height: normal;
-    min-height: 600px;
 }
 
 .el-menu-item.is-active {
@@ -26,4 +25,10 @@
 
 .el-menu {
     border-right: none !important;
+}
+.layout{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }

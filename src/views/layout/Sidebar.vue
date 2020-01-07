@@ -6,7 +6,7 @@
             text-color="#A3B1BF"
             active-text-color="#3080FE"
             active-background="#000"
-            background-color="#495060"
+            background-color="#545c64"
             router
         >
             <el-menu-item :index="item.path" v-for="item in $store.state.sidebarMenu" :key="item.name">

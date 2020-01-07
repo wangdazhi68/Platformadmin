@@ -7,7 +7,7 @@ import request from './request'
 Vue.prototype.$request = request;
 import './assets/css/common.css'
 Vue.config.productionTip = false
-Vue.prototype.$baseURL = 'http://192.168.50.144:8088/'
+Vue.prototype.$baseURL = process.env.VUE_APP_APIURL + '/';
 
 
 Vue.prototype.$setlocalStorage = function set(key, value) {

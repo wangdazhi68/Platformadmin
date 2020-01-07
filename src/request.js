@@ -5,7 +5,7 @@ import store from './store'
 import router from './router';
 // 创建axios实例
 const service = axios.create({
-        baseURL: 'http://192.168.50.144:8088',
+        baseURL: process.env.VUE_APP_APIURL,
         timeout: 10000, // 请求超时时间
         //data:data,
         // transformRequest: [function (data) {
